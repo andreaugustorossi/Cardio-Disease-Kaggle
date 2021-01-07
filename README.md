@@ -1,10 +1,14 @@
-# Cardio Vascular Disease Prediction
+# Cardiovascular Disease Prediction
 
 ![](img/heart.jpg)
 
 ## The Context
 
 This project was based on the Kaggle dataset that provides information on 70.000 patients with and without cardiovascular diseases. To make it more interesting, a hypothetical industry-driven situation was formulated by Meigaron Lopes. The hypothetical company called Cardio Catch Diseases is a company specialized in cardiovascular diagnoses and its profits comes from the accuracy of the diagnoses. The current diagnose is made via software or by experts, and the accuracy achieved ranges from 55% to 65%. The cost per patient is $1000,00. The price payed by the patient for the diagnosis varies according to the precision of the diagnosis. For every 1% of precision above 50% the patient pays $100,00. For instance, if a patient was diagnosed with 55% of accuracy, the patient will pay $500,00. If the accuracy was 50%, the patient does not pay anything. 
+
+Kaggle Dataset: https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
+
+Business context (Portuguese Brazil): https://sejaumdatascientist.com/projeto-de-data-science-diagnostico-precoce-de-doencas-cardiovasculares/
 
 <br>
 
@@ -191,7 +195,7 @@ The strongest positive correlations are between:
 
 ### Feature Selection
 
-To select the best features for the machine learning models a feature selection was performed. The results among all the selectors varied a lot and the decision made was to maintain the boruta outcomes plus some other features that were signaled as important by the other models. As an exempla, it is showed the LGBM feature selector result:
+To select the best features for the machine learning models a feature selection was performed. The results among all the selectors varied a lot and the decision made was to maintain the boruta outcomes plus some other features that were signaled as important by the other models. As an exemple, it is showed the LGBM feature selector result:
 
 ![](img/feature.png)
 
@@ -207,7 +211,11 @@ As can be seen with the default hyperparameters Catboost Classifier have shown t
 
 To improve this results is was calculated the best threshold to two of the best models (CatBoost and LGBM). The treshold for both were similar (0,41 and 0,42). The results are shown below:
 
-![](img/treshold.png)
+Threshold settled in 0.41
+![](img/41.png)
+
+Threshold settled in 0.42
+![](img/42.png)
 
 ##### Catboost Classifier  was chosen as the best classifier. 
 
