@@ -211,7 +211,11 @@ As can be seen with the default hyperparameters Catboost Classifier have shown t
 
 To improve this results is was calculated the best threshold to two of the best models (CatBoost and LGBM). The treshold for both were similar (0,41 and 0,42). The results are shown below:
 
-![](img/threshold.png)
+Threshold settled in 0.41
+![](img/41.png)
+
+Threshold settled in 0.42
+![](img/42.png)
 
 ##### Catboost Classifier  was chosen as the best classifier. 
 
