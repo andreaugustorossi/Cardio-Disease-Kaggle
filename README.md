@@ -195,7 +195,7 @@ The strongest positive correlations are between:
 
 ### Feature Selection
 
-To select the best features for the machine learning models a feature selection was performed. The results among all the selectors varied a lot and the decision made was to maintain the boruta outcomes plus some other features that were signaled as important by the other models. As an exempla, it is showed the LGBM feature selector result:
+To select the best features for the machine learning models a feature selection was performed. The results among all the selectors varied a lot and the decision made was to maintain the boruta outcomes plus some other features that were signaled as important by the other models. As an exemple, it is showed the LGBM feature selector result:
 
 ![](img/feature.png)
 
