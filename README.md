@@ -1,1 +1,3 @@
-# Cardio-Disease-Kaggle
+# Cardio Vascular Disease Prediction
+
+![](img/heart.jpg)
