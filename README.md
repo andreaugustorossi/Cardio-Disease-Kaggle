@@ -1,4 +1,4 @@
-# Cardio Vascular Disease Prediction
+# Cardiovascular Disease Prediction
 
 ![](img/heart.jpg)
 
