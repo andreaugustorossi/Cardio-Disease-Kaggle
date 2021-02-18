@@ -209,6 +209,12 @@ It was tested several machine learning models and the results are shown below:
 
 As can be seen, with the default hyperparameters Catboost Classifier have shown the best results according to F1-Score. 
 
+- On the business side, aiming for precision, as every 5% more on precision translates to $500 more from each diagnostic made.
+
+- On the patient side, aiming for recall, since the attempt is to minimize the false negative rate.
+
+So it was decided to use F1-Score to reach a balance between precision and recall.
+
 To improve this results it was calculated the best threshold to two of the best models (CatBoost and LGBM). The treshold for both were similar (0,41 and 0,42). The results are shown below:
 
 Threshold settled in 0.41
